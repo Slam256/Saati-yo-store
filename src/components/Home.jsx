@@ -17,14 +17,14 @@ function Home() {
         <Product
           id=""
           title="Round neck"
-          price="19.99"
+          price={19.99}
           image={process.env.PUBLIC_URL + '/img/product-1.jpeg'}
           rating={5}
         />
         <Product
           id=""
           title="The lean Startup"
-          price="19.99"
+          price={19.99}
           image={process.env.PUBLIC_URL + '/img/product-2.jpeg'}
           rating={5}
         />
@@ -32,23 +32,23 @@ function Home() {
 
       <div className="home__row">
         <Product
-          id=""
+          id="12321341"
           title="V-neck"
-          price="19.99"
+          price={19.99}
           image={process.env.PUBLIC_URL + '/img/product-3.jpeg'}
           rating={5}
         />
         <Product
-          id=""
+          id="49538094"
           title="Sweater"
-          price="19.99"
+          price={19.99}
           image={process.env.PUBLIC_URL + '/img/product-4.jpeg'}
           rating={5}
         />
         <Product
-          id=""
+          id="4903850"
           title="lonely"
-          price="19.99"
+          price={19.99}
           image={process.env.PUBLIC_URL + '/img/product-5.jpeg'}
           rating={5}
         />
@@ -56,7 +56,7 @@ function Home() {
 
       <div className="home__row">
         <Product
-          id=""
+          id="3254354345"
           title="couples"
           price="19.99"
           image={process.env.PUBLIC_URL + '/img/product-6.jpeg'}
